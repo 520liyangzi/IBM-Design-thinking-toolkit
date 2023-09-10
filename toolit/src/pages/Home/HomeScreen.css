@@ -1,0 +1,33 @@
+.box {
+  width: 220px;
+  height: 190px;
+  background-image: url('../../../public/images/stackholder.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.information {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  width: 85%;
+  white-space: pre-line;
+}
+
+.play {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}

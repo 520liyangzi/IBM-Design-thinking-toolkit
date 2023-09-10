@@ -1,0 +1,70 @@
+.header-text {
+  height: 30px;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.every-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.every-img {
+  width: 31px;
+  height: 31px;
+}
+
+.col-left {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-right: solid black 1px;
+  position: relative;
+}
+
+.col-dropdown {
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+  width: 14px;
+  height: 14px;
+}
+
+.col-right {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.empathy-container {
+  background-image: url('../../../public/images/bg1.png');
+  position: relative;
+  height: 800px;
+  width: 1278px;
+}
+
+.empathy-live {
+  width: 1278px;
+  height: 800px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.empathy-brain {
+  width: 1278px;
+  height: 800px;
+  border: 1px solid black;
+  position: absolute;
+  overflow: hidden;
+}
